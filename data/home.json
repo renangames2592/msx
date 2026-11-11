@@ -1,0 +1,57 @@
+{
+    "type": "pages",
+    "headline": "Início",
+    "pages": [
+        {
+            "items": [
+                {
+                    "type": "space",
+                    "layout": "0,0,12,6",
+                    "image": "https://msx.benzac.de/media/wallpaper1.jpg",
+                    "imageFiller": "cover"
+                },
+                {
+                    "type": "teaser",
+                    "layout": "0,0,7,5",
+                    "badge": "Novo",
+                    "badgeColor": "msx-green",
+                    "tag": "v1.0.0",
+                    "tagColor": "msx-blue",
+                    "titleHeader": "Bem-vindo ao",
+                    "title": "Meu Aplicativo",
+                    "titleFooter": "Feito com Media Station X",
+                    "image": "https://msx.benzac.de/img/bg1.jpg",
+                    "imageFiller": "cover"
+                },
+                {
+                    "type": "button",
+                    "layout": "7,0,5,2",
+                    "icon": "movie",
+                    "label": "Assistir vídeos",
+                    "action": "content:https://renangames2592.github.io/msx/data/videos.json"
+                },
+                {
+                    "type": "button",
+                    "layout": "7,2,5,2",
+                    "icon": "image",
+                    "label": "Abrir galeria",
+                    "action": "content:https://renangames2592.github.io/msx/data/gallery.json"
+                },
+                {
+                    "type": "button",
+                    "layout": "7,4,5,1",
+                    "icon": "info",
+                    "label": "Sobre este app",
+                    "action": "content:https://renangames2592.github.io/msx/data/about.json"
+                },
+                {
+                    "type": "default",
+                    "layout": "0,5,7,1",
+                    "color": "msx-glass",
+                    "headline": "Dica",
+                    "text": "Use as setas do controle para navegar. Este conteúdo vem de JSONs hospedados na web."
+                }
+            ]
+        }
+    ]
+}

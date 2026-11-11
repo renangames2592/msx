@@ -1,0 +1,48 @@
+{
+    "headline": "Meu Aplicativo",
+    "style": "flat-separator",
+    "background": "https://msx.benzac.de/media/wallpaper1.jpg",
+    "menu": [
+        {
+            "type": "separator",
+            "label": "{col:#18aa9c}Principal",
+            "lineColor": "#18aa9c"
+        },
+        {
+            "id": "home",
+            "icon": "home",
+            "label": "Início",
+            "data": "https://renangames2592.github.io/msx/data/home.json"
+        },
+        {
+            "id": "videos",
+            "icon": "movie",
+            "label": "Vídeos",
+            "data": "https://renangames2592.github.io/msx/data/videos.json"
+        },
+        {
+            "id": "iptv",
+            "icon": "live-tv",
+            "label": "TV / IPTV",
+            "extensionLabel": "M3U",
+            "data": "https://msx.benzac.de/services/m3u.php?type=video&headline=TV%20%2F%20IPTV&url=https%3A%2F%2Fmsx.benzac.de%2Finfo%2Fdata%2Fm3u%2Fvideos.m3u"
+        },
+        {
+            "id": "gallery",
+            "icon": "image",
+            "label": "Galeria",
+            "data": "https://renangames2592.github.io/msx/data/gallery.json"
+        },
+        {
+            "type": "separator",
+            "label": "{col:#18aa9c}Aplicativo",
+            "lineColor": "#18aa9c"
+        },
+        {
+            "id": "about",
+            "icon": "info",
+            "label": "Sobre",
+            "data": "https://renangames2592.github.io/msx/data/about.json"
+        }
+    ]
+}

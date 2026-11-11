@@ -1,0 +1,10 @@
+{
+    "name": "Meu Aplicativo",
+    "version": "1.0.0",
+    "parameter": "menu:https://renangames2592.github.io/msx/data/menu.json",
+    "welcome": "start",
+    "launcher": {
+        "icon": "movie",
+        "color": "msx-black-soft"
+    }
+}

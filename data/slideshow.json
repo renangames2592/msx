@@ -1,0 +1,35 @@
+{
+    "type": "list",
+    "headline": "Slideshow",
+    "template": {
+        "type": "separate",
+        "layout": "0,0,4,6",
+        "imageFiller": "cover"
+    },
+    "items": [
+        {
+            "title": "Paisagem 1",
+            "image": "https://msx.benzac.de/img/bg1.jpg",
+            "action": "image:https://msx.benzac.de/img/bg1.jpg",
+            "imageLabel": "Paisagem 1"
+        },
+        {
+            "title": "Paisagem 2",
+            "image": "https://msx.benzac.de/img/bg2.jpg",
+            "action": "image:https://msx.benzac.de/img/bg2.jpg",
+            "imageLabel": "Paisagem 2"
+        },
+        {
+            "title": "Paisagem 3",
+            "image": "https://msx.benzac.de/img/bg3.jpg",
+            "action": "image:https://msx.benzac.de/img/bg3.jpg",
+            "imageLabel": "Paisagem 3"
+        },
+        {
+            "title": "Papel de parede",
+            "image": "https://msx.benzac.de/media/wallpaper1.jpg",
+            "action": "image:https://msx.benzac.de/media/wallpaper1.jpg",
+            "imageLabel": "Papel de parede"
+        }
+    ]
+}

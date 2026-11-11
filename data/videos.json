@@ -1,0 +1,54 @@
+{
+    "type": "list",
+    "headline": "Vídeos",
+    "template": {
+        "type": "separate",
+        "layout": "0,0,2,4",
+        "color": "msx-glass",
+        "icon": "msx-white-soft:movie",
+        "iconSize": "medium"
+    },
+    "items": [
+        {
+            "badge": "{txt:msx-white:YouTube}",
+            "badgeColor": "#ff0000",
+            "title": "Exemplo YouTube 1",
+            "titleFooter": "Media Station X",
+            "playerLabel": "YouTube - Exemplo 1",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=PRy2CFVlPOA"
+        },
+        {
+            "badge": "{txt:msx-white:YouTube}",
+            "badgeColor": "#ff0000",
+            "title": "Exemplo YouTube 2",
+            "titleFooter": "Media Station X",
+            "playerLabel": "YouTube - Exemplo 2",
+            "action": "video:plugin:https://msx.benzac.de/plugins/youtube.html?id=dQw4w9WgXcQ"
+        },
+        {
+            "badge": "{txt:msx-white:Vimeo}",
+            "badgeColor": "#1ab7ea",
+            "title": "Exemplo Vimeo",
+            "titleFooter": "Vimeo",
+            "playerLabel": "Vimeo - Exemplo",
+            "action": "video:plugin:https://msx.benzac.de/plugins/vimeo.html?id=54802209"
+        },
+        {
+            "badge": "{txt:msx-white:MP4}",
+            "badgeColor": "#18aa9c",
+            "title": "Vídeo direto (MP4)",
+            "titleFooter": "Arquivo hospedado",
+            "playerLabel": "MP4 - Exemplo",
+            "image": "https://msx.benzac.de/img/bg2.jpg",
+            "action": "video:https://msx.benzac.de/media/video1.mp4"
+        },
+        {
+            "badge": "{txt:msx-white:Som}",
+            "badgeColor": "#ff5500",
+            "title": "Áudio de exemplo",
+            "titleFooter": "SoundCloud",
+            "playerLabel": "SoundCloud - Exemplo",
+            "action": "video:plugin:https://msx.benzac.de/plugins/soundcloud.html?id=143041228"
+        }
+    ]
+}

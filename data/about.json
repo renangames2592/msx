@@ -1,0 +1,70 @@
+{
+    "type": "pages",
+    "headline": "Sobre",
+    "pages": [
+        {
+            "items": [
+                {
+                    "type": "default",
+                    "layout": "0,0,7,6",
+                    "color": "msx-glass",
+                    "headline": "Meu Aplicativo",
+                    "text": [
+                        "Versão 1.0.0",
+                        "",
+                        "Este aplicativo foi criado com a API do Media Station X.",
+                        "Todo o conteúdo (menus, páginas e vídeos) são arquivos JSON hospedados na web.",
+                        "",
+                        "Você pode editar estes arquivos e o app se atualiza sozinho na próxima abertura."
+                    ]
+                },
+                {
+                    "type": "button",
+                    "layout": "7,0,5,2",
+                    "icon": "web-asset",
+                    "label": "Documentação MSX",
+                    "action": "link:window:https://msx.benzac.de/wiki/"
+                },
+                {
+                    "type": "button",
+                    "layout": "7,2,5,2",
+                    "icon": "apps",
+                    "label": "Exemplo no GitHub",
+                    "action": "link:window:https://github.com/benzac-de/msx"
+                },
+                {
+                    "type": "button",
+                    "layout": "7,4,5,2",
+                    "icon": "refresh",
+                    "label": "Recarregar aplicativo",
+                    "action": "reload"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "type": "default",
+                    "layout": "0,0,12,3",
+                    "color": "msx-glass",
+                    "headline": "Como funciona",
+                    "text": "O Media Station X é um aplicativo genérico: ele busca estes JSONs na sua URL e desenha a interface. Este app está hospedado em https://renangames2592.github.io/msx — para usá-lo na TV, digite renangames2592.github.io no Start Parameter do MSX."
+                },
+                {
+                    "type": "button",
+                    "layout": "0,3,6,2",
+                    "icon": "check-circle",
+                    "label": "Mensagem de teste",
+                    "action": "success:Seu aplicativo está funcionando!"
+                },
+                {
+                    "type": "button",
+                    "layout": "6,3,6,2",
+                    "icon": "settings",
+                    "label": "Configurações do MSX",
+                    "action": "settings"
+                }
+            ]
+        }
+    ]
+}

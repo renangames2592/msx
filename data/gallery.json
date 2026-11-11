@@ -1,0 +1,57 @@
+{
+    "type": "pages",
+    "headline": "Galeria",
+    "pages": [
+        {
+            "items": [
+                {
+                    "type": "button",
+                    "layout": "0,0,4,2",
+                    "icon": "play-circle-outline",
+                    "label": "Iniciar slideshow",
+                    "action": "slideshow:https://renangames2592.github.io/msx/data/slideshow.json"
+                },
+                {
+                    "type": "separate",
+                    "layout": "0,2,3,3",
+                    "title": "Paisagem 1",
+                    "titleFooter": "Clique para ampliar",
+                    "image": "https://msx.benzac.de/img/bg1.jpg",
+                    "imageFiller": "cover",
+                    "action": "image:https://msx.benzac.de/img/bg1.jpg",
+                    "imageLabel": "Paisagem 1"
+                },
+                {
+                    "type": "separate",
+                    "layout": "3,2,3,3",
+                    "title": "Paisagem 2",
+                    "titleFooter": "Clique para ampliar",
+                    "image": "https://msx.benzac.de/img/bg2.jpg",
+                    "imageFiller": "cover",
+                    "action": "image:https://msx.benzac.de/img/bg2.jpg",
+                    "imageLabel": "Paisagem 2"
+                },
+                {
+                    "type": "separate",
+                    "layout": "6,2,3,3",
+                    "title": "Paisagem 3",
+                    "titleFooter": "Clique para ampliar",
+                    "image": "https://msx.benzac.de/img/bg3.jpg",
+                    "imageFiller": "cover",
+                    "action": "image:https://msx.benzac.de/img/bg3.jpg",
+                    "imageLabel": "Paisagem 3"
+                },
+                {
+                    "type": "separate",
+                    "layout": "9,2,3,3",
+                    "title": "Papel de parede",
+                    "titleFooter": "Clique para ampliar",
+                    "image": "https://msx.benzac.de/media/wallpaper1.jpg",
+                    "imageFiller": "cover",
+                    "action": "image:https://msx.benzac.de/media/wallpaper1.jpg",
+                    "imageLabel": "Papel de parede"
+                }
+            ]
+        }
+    ]
+}
